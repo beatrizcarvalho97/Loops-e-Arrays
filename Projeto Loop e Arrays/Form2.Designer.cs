@@ -33,6 +33,7 @@
             this.Rad_Contagens = new System.Windows.Forms.RadioButton();
             this.Rad_Vetores = new System.Windows.Forms.RadioButton();
             this.Rad_Arrays = new System.Windows.Forms.RadioButton();
+            this.Rad_Atividade = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // Lbl_Titulo
@@ -49,7 +50,7 @@
             // 
             this.Rad_Exemplos.AutoSize = true;
             this.Rad_Exemplos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Rad_Exemplos.Location = new System.Drawing.Point(362, 140);
+            this.Rad_Exemplos.Location = new System.Drawing.Point(328, 140);
             this.Rad_Exemplos.Name = "Rad_Exemplos";
             this.Rad_Exemplos.Size = new System.Drawing.Size(96, 24);
             this.Rad_Exemplos.TabIndex = 1;
@@ -61,7 +62,7 @@
             // 
             this.Rad_Contagens.AutoSize = true;
             this.Rad_Contagens.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Rad_Contagens.Location = new System.Drawing.Point(362, 184);
+            this.Rad_Contagens.Location = new System.Drawing.Point(328, 182);
             this.Rad_Contagens.Name = "Rad_Contagens";
             this.Rad_Contagens.Size = new System.Drawing.Size(105, 24);
             this.Rad_Contagens.TabIndex = 2;
@@ -73,12 +74,12 @@
             // 
             this.Rad_Vetores.AutoSize = true;
             this.Rad_Vetores.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Rad_Vetores.Location = new System.Drawing.Point(362, 234);
+            this.Rad_Vetores.Location = new System.Drawing.Point(328, 224);
             this.Rad_Vetores.Name = "Rad_Vetores";
-            this.Rad_Vetores.Size = new System.Drawing.Size(83, 24);
+            this.Rad_Vetores.Size = new System.Drawing.Size(141, 24);
             this.Rad_Vetores.TabIndex = 3;
             this.Rad_Vetores.TabStop = true;
-            this.Rad_Vetores.Text = "Vetores";
+            this.Rad_Vetores.Text = "Arrays - Vetores";
             this.Rad_Vetores.UseVisualStyleBackColor = true;
             this.Rad_Vetores.CheckedChanged += new System.EventHandler(this.Rad_Vetores_CheckedChanged);
             // 
@@ -86,20 +87,33 @@
             // 
             this.Rad_Arrays.AutoSize = true;
             this.Rad_Arrays.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Rad_Arrays.Location = new System.Drawing.Point(362, 278);
+            this.Rad_Arrays.Location = new System.Drawing.Point(328, 266);
             this.Rad_Arrays.Name = "Rad_Arrays";
-            this.Rad_Arrays.Size = new System.Drawing.Size(72, 24);
+            this.Rad_Arrays.Size = new System.Drawing.Size(145, 24);
             this.Rad_Arrays.TabIndex = 4;
             this.Rad_Arrays.TabStop = true;
-            this.Rad_Arrays.Text = "Arrays";
+            this.Rad_Arrays.Text = "Arrays - Matrizes";
             this.Rad_Arrays.UseVisualStyleBackColor = true;
             this.Rad_Arrays.CheckedChanged += new System.EventHandler(this.Rad_Arrays_CheckedChanged);
+            // 
+            // Rad_Atividade
+            // 
+            this.Rad_Atividade.AutoSize = true;
+            this.Rad_Atividade.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Rad_Atividade.Location = new System.Drawing.Point(328, 308);
+            this.Rad_Atividade.Name = "Rad_Atividade";
+            this.Rad_Atividade.Size = new System.Drawing.Size(92, 24);
+            this.Rad_Atividade.TabIndex = 5;
+            this.Rad_Atividade.TabStop = true;
+            this.Rad_Atividade.Text = "Atividade";
+            this.Rad_Atividade.UseVisualStyleBackColor = true;
             // 
             // Frm_Tela2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Rad_Atividade);
             this.Controls.Add(this.Rad_Arrays);
             this.Controls.Add(this.Rad_Vetores);
             this.Controls.Add(this.Rad_Contagens);
@@ -108,7 +122,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Frm_Tela2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form2";
+            this.Text = "s";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -121,5 +135,6 @@
         private System.Windows.Forms.RadioButton Rad_Contagens;
         private System.Windows.Forms.RadioButton Rad_Vetores;
         private System.Windows.Forms.RadioButton Rad_Arrays;
+        private System.Windows.Forms.RadioButton Rad_Atividade;
     }
 }

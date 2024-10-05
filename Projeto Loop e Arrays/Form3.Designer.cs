@@ -174,6 +174,7 @@
             this.Name = "Frm_Tela3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Exemplos";
+            this.Load += new System.EventHandler(this.Frm_Tela3_Load);
             this.Grp_Tabuada1.ResumeLayout(false);
             this.Grp_Tabuada1.PerformLayout();
             this.Grp_Tabuada2.ResumeLayout(false);

@@ -72,6 +72,11 @@ namespace Projeto_Loop_e_Arrays
             }
         }
 
+        private void Frm_Tela3_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void Txt_Numero2_KeyPress(object sender, KeyPressEventArgs e)
         {
             if(!char.IsNumber(e.KeyChar) && !char.IsControl(e.KeyChar))

@@ -87,10 +87,10 @@
             // Lbl_Bidimensional
             // 
             this.Lbl_Bidimensional.AutoSize = true;
-            this.Lbl_Bidimensional.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Bidimensional.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_Bidimensional.Location = new System.Drawing.Point(343, 88);
             this.Lbl_Bidimensional.Name = "Lbl_Bidimensional";
-            this.Lbl_Bidimensional.Size = new System.Drawing.Size(95, 17);
+            this.Lbl_Bidimensional.Size = new System.Drawing.Size(108, 17);
             this.Lbl_Bidimensional.TabIndex = 12;
             this.Lbl_Bidimensional.Text = "Bidimensional";
             // 
@@ -98,7 +98,7 @@
             // 
             this.Lbl_Matrizes.AutoSize = true;
             this.Lbl_Matrizes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Matrizes.Location = new System.Drawing.Point(341, 40);
+            this.Lbl_Matrizes.Location = new System.Drawing.Point(348, 40);
             this.Lbl_Matrizes.Name = "Lbl_Matrizes";
             this.Lbl_Matrizes.Size = new System.Drawing.Size(99, 20);
             this.Lbl_Matrizes.TabIndex = 11;
@@ -119,6 +119,7 @@
             this.Name = "Frm_Tela6";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Matrizes";
+            this.Load += new System.EventHandler(this.Frm_Tela6_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
